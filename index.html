@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyWeb</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- JS, Popper.js, and jQuery -->
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>	
+	
+</head>
+<body>
+
+												<!-- navbar -->
+
+<nav class="navbar bg-dark navbar-dark navbar-expand-md sticky-top">
+		<a href="#" class="navbar-brand">BookMyTicket</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#colla" type="button">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="colla">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>	
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tickets</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">Movie</a>
+						<a href="#" class="dropdown-item">Sports</a>
+						<a href="#" class="dropdown-item">DJ Nights</a>
+						<a href="#" class="dropdown-item">Events</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="#About" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#Contact" class="nav-link">Contact</a>
+				</li>
+			</ul>
+				<form class="form-inline Searchf" action="#">
+					<button class="btn btn-outline-danger" style="margin-right: 10px;"><span class="fas fa-globe"></span><span id="locate"> Location</span></button>
+					<input type="text" placeholder="Search" style="width: 150px;" class="form-control">
+					<button class="btn btn-danger">&#128269</button>
+				</form>
+				<form class="from-inline signup" action="signup.html">
+					<button type="submit" class="btn btn-danger"  style="margin-left: 5px;">Sign up</button>
+				</form>
+		</div>
+</nav>
+
+<!--                                            carousel-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+											<!--carousel indicators-->
+		<ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="images/singham.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="images/kaala.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="images/ekvillain.jpg">
+		</div>
+	</div>
+			 <!-- Left and right controls -->
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+</div>
+
+								<!--Grid view of trending movies-->
+
+
+<div class="container-fluid bg-dark text-light p-3"><h3 class="m-0">Recommended movies</h3></div>
+<div class="container-fluid bg-dark form-inline text-center  text-small text-light">
+	<div class="col-3">
+		<div class="card marchange bg-danger">
+			<img src="images/n/raw.jpg" class="card-img-top">
+			<div class="card-body p-1">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<p class="card-title">R A W</p>
+				<a href="#" class="stretched-link"></a>
+			</div>
+		</div>
+	</div>
+		<div class="col-3">
+		<div class="card marchange bg-danger">
+			<img src="images/gullyboy.jpg" class="card-img-top">
+			<div class="card-body p-1">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>				
+				<p class="card-title">Gullyboy</p>
+				<a href="#" class="stretched-link"></a>
+			</div>
+		</div>
+	</div>
+		<div class="col-3">
+		<div class="card marchange bg-danger">
+			<img src="images/n/tw.jpg" class="card-img-top">
+			<div class="card-body p-1">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
+				<p class="card-title">Queen</p>
+				<a href="#" class="stretched-link"></a>
+			</div>
+		</div>
+	</div>
+		<div class="col-3">
+		<div class="card marchange bg-danger">
+			<img src="images/n/judwaa.jpg" class="card-img-top">
+			<div class="card-body p-1">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<p class="card-title">Judwaa 2</p>
+				<a href="#" class="stretched-link"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+									<!--About us-->
+
+	<div class="jumbotron bg-dark text-light m-0 border-rad">
+		<h3 class="text-center" style="color: grey;" id="About">About</h3>
+		<p style="color: grey;">This web is just a dummy project. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>		
+	</div>
+
+									<!--Contact us-->
+
+	<div class="jumbotron m-0 border-rad text-center bg-dark text-grey" >
+		<h3 id="Contact">Contact Us</h3> 
+		<p>Contact no.: 99854XXXXX</p><p>Mail : janakkavad1111@gmail.com</p>
+	</div>
+
+
+									<!--Bottom-->
+
+<div class="jumbotron m-0 bg-dark text-light new text-center border-rad">
+	<h6 class="line"><span class="bg-dark px-3 large" style="color: grey">BookMyTicket</span></h6>
+	<img class="icon" src="images/fb.png">
+	<img class="icon" src="images/twitter.png">
+	<img class="icon" src="images/instagram.png">
+	<h6 class="Copyright" style="margin-top: 15px;color: grey;">Copyright <code>&#169;</code> 2020 JK Pvt. Lmt. All Rights Reserved.</h6>
+</div>
+
+</body>
+</html>

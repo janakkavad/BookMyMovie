@@ -1,0 +1,73 @@
+@media only screen and (min-width: 768px) {
+	.Searchf{
+		position: absolute;
+		right: 5px;
+	}
+	.signup{
+		position: absolute;
+		right: 265px;
+	}
+	#locate{
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	.Searchf>button,.Searchf>input{
+		margin-bottom: 10px;
+	}	
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.line{
+	border-bottom: 1px solid grey;
+	line-height: 0.1em!important;
+	margin-bottom: 30px;
+}
+.border-rad{
+	border-radius: 0px!important;
+}
+.icon{
+	width: 3%;
+	height: auto;
+	margin: 5px;
+	border-radius: 5px;
+}
+@media only screen and (max-width: 576px)
+{
+	.icon{
+		width: 30px;
+	}
+	.Copyright{
+		font-size: 10px;
+	}
+	.text-small{
+		font-size: 10px;
+	}
+	.marchange{
+		margin: 0rem!important;
+	}
+	h3{
+		font-size: 1.5em!important;
+	}
+}
+h3{
+	font-size: 2em;
+}
+.marchange{
+	margin: 0.5rem;
+}
+.icon:hover{
+	background-color: grey;
+}
+.large{
+	font-size: 1.5em;
+}
+.checked{
+	color: orange;
+}
+.text-grey{
+	color: grey;
+}
